@@ -55,7 +55,9 @@ INSERT INTO [UserProfile]
   ([Id], [FirebaseUserId], [Name], [Email], [UserTypeId])
 VALUES
   (1, '4oULyNuszpUGbNkTqGS0T8Iqs1L2', 'Foo Barington', 'foo@bar.com', 1),
-  (2, 'vP3tkzRXWmRzwSLGwNTBS5fJs2N2', 'Bar Bazaar', 'bar@baz.com', 2);
+  (2, 'vP3tkzRXWmRzwSLGwNTBS5fJs2N2', 'Bar Bazaar', 'bar@baz.com', 2),
+  (3, '3I142BolzbSa9IVIi79lkxgUNlx2', 'Brandon Hill', 'brandonsemail@email.com', 2),
+  (4, 'AxqvGWoOunaBHAUJQMMyJ3tueP02', 'Billy Bob', 'bobsemail@email.com', 2);
 SET IDENTITY_INSERT [UserProfile] OFF
 
 
@@ -68,5 +70,4 @@ VALUES
   (3, 1, 'The glass is neither half empty nor half full. It''s simply larger than it needs to be. It is easier to get forgiveness than permission.'),
   (4, 1, 'A ship in port is safe, but that''s not what ships are built for.');
 SET IDENTITY_INSERT [Quote] OFF
-
 
